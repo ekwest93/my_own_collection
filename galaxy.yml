@@ -3,11 +3,10 @@ name: my_own_collection
 version: 1.0.0
 readme: README.md
 authors:
-  - Your Name <your.email@example.com>
-description: My custom collection with file module
+  - Your Name
+description: My custom module for file creation
 license:
   - MIT
 tags:
   - files
-  - custom
 repository: https://github.com/ekwest93/my_own_collection
