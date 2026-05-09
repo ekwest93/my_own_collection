@@ -1,0 +1,26 @@
+---
+- name: Test my own module
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Create file using my module
+      ekwest93.my_own_collection.my_own_module:
+        path: /tmp/test_from_module.txt
+        content: "Hello from custom module!"
+      register: result
+
+    - name: Show result
+      debug:
+        var: result
+
+    - name: Run again (check idempotence)
+      ekwest93.my_own_collection.my_own_module:
+        path: /tmp/test_from_module.txt
+        content: "Hello from custom module!"
+      register: result2
+
+    - name: Show idempotence result
+      debug:
+        var: result2

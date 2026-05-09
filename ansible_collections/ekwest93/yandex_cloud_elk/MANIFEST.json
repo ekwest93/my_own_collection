@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "ekwest93",
+  "name": "yandex_cloud_elk",
+  "version": "1.0.0",
+  "authors": [
+   "Your Name <your.email@example.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "yandex",
+   "cloud",
+   "elk"
+  ],
+  "description": "Collection for Yandex Cloud ELK",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/ekwest93/yandex_cloud_elk",
+  "documentation": null,
+  "homepage": null,
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "5bf0d6c512ec14866a6b677625e59a18d8cfa230ad8204dd9e746c3eb9559fe6",
+  "format": 1
+ },
+ "format": 1
+}
