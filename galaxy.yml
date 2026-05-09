@@ -4,17 +4,10 @@ version: 1.0.0
 readme: README.md
 authors:
   - Your Name <your.email@example.com>
-description: My custom Ansible collection
+description: My custom collection with file module
 license:
   - MIT
 tags:
+  - files
   - custom
 repository: https://github.com/ekwest93/my_own_collection
-documentation: https://github.com/ekwest93/my_own_collection
-homepage: https://github.com/ekwest93/my_own_collection
-issues: https://github.com/ekwest93/my_own_collection/issues
-build_ignore:
-  - .gitignore
-  - .github
-  - tests/output
-  - venv
