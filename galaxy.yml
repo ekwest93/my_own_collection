@@ -4,7 +4,7 @@ version: 1.0.0
 readme: README.md
 authors:
   - Your Name
-description: My custom module for file creation
+description: Custom module for file creation
 license:
   - MIT
 tags:

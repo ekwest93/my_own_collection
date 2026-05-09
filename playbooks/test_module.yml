@@ -1,14 +1,11 @@
 ---
-- name: Test my own module
+- name: Test module
   hosts: localhost
   connection: local
-  gather_facts: no
   tasks:
-    - name: Create file using my module
+    - name: Create file
       my_own_module:
         path: /tmp/test.txt
-        content: "Hello from module!"
+        content: "Hello"
       register: result
-    - name: Show result
-      debug:
-        var: result
+    - debug: var=result
